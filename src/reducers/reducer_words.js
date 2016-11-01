@@ -1,13 +1,13 @@
 export default function() {
 	return [
-		{word: "bon vivant"},
-		{word: "denouement"},
-		{word: "parthenogenesis"},
-		{word: "ineffable"},
-		{word: "savoir fare"},
-		{word: "equanimity"},
-		{word: "inimitable"},
-		{word: "polymath"},
-		{word: "voluble"}
+		{spelling: "bon vivant"},
+		{spelling: "denouement"},
+		{spelling: "parthenogenesis"},
+		{spelling: "ineffable"},
+		{spelling: "savoir fare"},
+		{spelling: "equanimity"},
+		{spelling: "inimitable"},
+		{spelling: "polymath"},
+		{spelling: "voluble"}
 	]
 }
