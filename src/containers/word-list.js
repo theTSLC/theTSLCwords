@@ -7,7 +7,11 @@ class WordList extends Component {
 	renderList() {
 		return this.props.words.map((word) => {
 			return (
-			  <li key={word.spelling} className="list-group-item"> {word.spelling} </li>
+			  <li 
+			  key={word.spelling} 
+			  onClick={() => this.props.selectWord(word)}
+			  className="list-group-item"> 
+			  {word.spelling} </li>
 			);
 		});
 	}
