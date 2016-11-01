@@ -1,25 +1,13 @@
-# ReduxSimpleStarter
+# theTSLCwords
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Simple React & Redux app that allows users to practice their diction!
 
-###Getting Started###
 
-There are two methods for getting started with this repo.
+### Application State ###
+MVP: practicing with Redux, make page with display of list of words as well as details for the currently selected word.
+To add: users, db, quiz functionality, styling, quotes, styling, testing, deploy, mobile optimization, google analytics etc
 
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
 
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
+#### Resources Used #####
+Began with boiler plate from https://github.com/StephenGrider/ReactStarter
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
