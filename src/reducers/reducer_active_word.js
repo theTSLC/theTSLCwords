@@ -2,7 +2,7 @@
 // state argument is not application state, but rather, only the state this reducer is responsible for
 export default function(state = null, action) {
   switch(action.type) {
-    case: 'WORD_SELECTED':
+    case 'WORD_SELECTED':
       return action.payload;
   }
 
