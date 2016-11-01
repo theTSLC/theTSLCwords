@@ -6,11 +6,14 @@ class WordDetail extends Component {
 		if (!this.props.word) {
 			return <div> Select a word to get started! </div>;
 		}
-		
+
 		return (
 			<div> 
-				<h3> Details for: </h3>
-				<div> {this.props.word.spelling} </div>
+				<h5> Details for: </h5>
+				<h3> {this.props.word.spelling} </h3>
+				<div> Definition: {this.props.word.definition} </div>
+				<div> Example: {this.props.word.example} </div>
+				<div> Etymology: {this.props.word.etymology} </div>
 			</div>
 		);
 	}
